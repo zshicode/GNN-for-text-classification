@@ -1,0 +1,61 @@
+GCN(
+  (layer1): GraphConvolution(
+    (act_func): ReLU()
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (layer2): GraphConvolution(
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+)
+[2019/12/3 22:36:42] Epoch: 1, train_loss= 0.72780, train_acc= 0.49844, val_loss= 0.69484, val_acc= 0.52113, time= 0.61055
+[2019/12/3 22:36:42] Epoch: 2, train_loss= 0.69987, train_acc= 0.54001, val_loss= 0.69499, val_acc= 0.53239, time= 0.36888
+[2019/12/3 22:36:43] Epoch: 3, train_loss= 0.69331, train_acc= 0.56268, val_loss= 0.69338, val_acc= 0.57183, time= 0.35337
+[2019/12/3 22:36:43] Epoch: 4, train_loss= 0.67415, train_acc= 0.63832, val_loss= 0.69186, val_acc= 0.65211, time= 0.36029
+[2019/12/3 22:36:43] Epoch: 5, train_loss= 0.65720, train_acc= 0.77243, val_loss= 0.69115, val_acc= 0.69437, time= 0.35679
+[2019/12/3 22:36:44] Epoch: 6, train_loss= 0.64761, train_acc= 0.85167, val_loss= 0.69087, val_acc= 0.69718, time= 0.36560
+[2019/12/3 22:36:44] Epoch: 7, train_loss= 0.64177, train_acc= 0.83979, val_loss= 0.69057, val_acc= 0.70282, time= 0.35844
+[2019/12/3 22:36:44] Epoch: 8, train_loss= 0.63583, train_acc= 0.84417, val_loss= 0.69012, val_acc= 0.71268, time= 0.36633
+[2019/12/3 22:36:45] Epoch: 9, train_loss= 0.62889, train_acc= 0.86558, val_loss= 0.68962, val_acc= 0.73099, time= 0.35702
+[2019/12/3 22:36:45] Epoch: 10, train_loss= 0.62188, train_acc= 0.89262, val_loss= 0.68922, val_acc= 0.73944, time= 0.35829
+[2019/12/3 22:36:45] Epoch: 11, train_loss= 0.61589, train_acc= 0.90919, val_loss= 0.68900, val_acc= 0.74789, time= 0.36107
+[2019/12/3 22:36:46] Epoch: 12, train_loss= 0.61136, train_acc= 0.91654, val_loss= 0.68892, val_acc= 0.74930, time= 0.34605
+[2019/12/3 22:36:46] Epoch: 13, train_loss= 0.60798, train_acc= 0.91622, val_loss= 0.68890, val_acc= 0.74507, time= 0.37290
+[2019/12/3 22:36:47] Epoch: 14, train_loss= 0.60507, train_acc= 0.91716, val_loss= 0.68885, val_acc= 0.74648, time= 0.35947
+[2019/12/3 22:36:47] Epoch: 15, train_loss= 0.60207, train_acc= 0.91951, val_loss= 0.68875, val_acc= 0.74930, time= 0.34718
+[2019/12/3 22:36:47] Epoch: 16, train_loss= 0.59881, train_acc= 0.92591, val_loss= 0.68862, val_acc= 0.75634, time= 0.37199
+[2019/12/3 22:36:48] Epoch: 17, train_loss= 0.59550, train_acc= 0.93326, val_loss= 0.68852, val_acc= 0.75634, time= 0.34690
+[2019/12/3 22:36:48] Epoch: 18, train_loss= 0.59249, train_acc= 0.93857, val_loss= 0.68849, val_acc= 0.76479, time= 0.36438
+[2019/12/3 22:36:48] Epoch: 19, train_loss= 0.59000, train_acc= 0.93842, val_loss= 0.68853, val_acc= 0.76620, time= 0.35466
+[2019/12/3 22:36:49] Epoch: 20, train_loss= 0.58799, train_acc= 0.93873, val_loss= 0.68862, val_acc= 0.76056, time= 0.34716
+[2019/12/3 22:36:49] Epoch: 21, train_loss= 0.58619, train_acc= 0.94014, val_loss= 0.68869, val_acc= 0.75915, time= 0.36543
+[2019/12/3 22:36:49] Epoch: 22, train_loss= 0.58433, train_acc= 0.94217, val_loss= 0.68876, val_acc= 0.76479, time= 0.35466
+[2019/12/3 22:36:49] Early stopping...
+[2019/12/3 22:36:49] Optimization Finished!
+[2019/12/3 22:36:50] Test set results:
+[2019/12/3 22:36:50]     loss= 0.67343, accuracy= 0.75521, time= 0.12675
+[2019/12/3 22:36:50] Test Precision, Recall and F1-Score...
+[2019/12/3 22:36:50]               precision    recall  f1-score   support
+[2019/12/3 22:36:50]
+[2019/12/3 22:36:50]            0     0.7381    0.7912    0.7637      1777
+[2019/12/3 22:36:50]            1     0.7750    0.7192    0.7461      1777
+[2019/12/3 22:36:50]
+[2019/12/3 22:36:50]     accuracy                         0.7552      3554
+[2019/12/3 22:36:50]    macro avg     0.7565    0.7552    0.7549      3554
+[2019/12/3 22:36:50] weighted avg     0.7565    0.7552    0.7549      3554
+[2019/12/3 22:36:50]
+[2019/12/3 22:36:50] Macro average Test Precision, Recall and F1-Score...
+[2019/12/3 22:36:50] (0.7565364517428044, 0.7552054023635341, 0.7548874583694424, None)
+[2019/12/3 22:36:50] Micro average Test Precision, Recall and F1-Score...
+[2019/12/3 22:36:50] (0.7552054023635341, 0.7552054023635341, 0.755205402363534, None)
+[2019/12/3 22:36:50] Embeddings:
+Word_embeddings:18764
+Train_doc_embeddings:7108
+Test_doc_embeddings:3554
+Word_embeddings::50]
+[[0.         0.         0.02247341 ... 0.0546945  0.24868366 0.        ]
+ [0.10796481 0.         0.38454083 ... 0.18542081 0.         0.        ]
+ [0.         0.         0.         ... 0.200204   0.         0.        ]
+ ...
+ [0.         0.         0.         ... 0.         0.         0.        ]
+ [0.05917454 0.01806128 0.         ... 0.         0.         0.        ]
+ [0.         0.         0.         ... 0.         0.         0.        ]]
