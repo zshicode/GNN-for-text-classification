@@ -11,8 +11,6 @@ We evaluated our model on MR dataset (Tang et al., 2015) . Results:
 
 Some of our codes are from repository [TextGCN](https://github.com/yao8839836/text_gcn) and [TextGCN in PyTorch](https://github.com/iworldtong/text_gcn.pytorch). More datasets can also be downloaded from these two repositories.
 
-It is **recommended to read the [slides](slides.pdf)** in this repository, as a tutorial for graph neural networks and TextGCN, although part of the contents are written in Chinese.
-
 ## Requirements
 
  The code has been tested running under:
